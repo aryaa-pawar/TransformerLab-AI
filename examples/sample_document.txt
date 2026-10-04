@@ -1,0 +1,21 @@
+﻿Artificial intelligence is transforming the way organizations process information and make decisions.
+
+Natural Language Processing allows computers to analyze and understand human language. Modern NLP systems increasingly use Transformer architectures because they can model relationships between words using attention mechanisms.
+
+BERT is an encoder-based Transformer architecture designed primarily for language understanding tasks. It can be adapted for applications such as sentiment analysis, named entity recognition, text classification, and extractive question answering.
+
+DistilBERT is a smaller and faster version of BERT created using knowledge distillation. It retains much of BERT's language understanding capability while reducing model size and computational requirements.
+
+BART is an encoder-decoder Transformer architecture. It is particularly useful for sequence-to-sequence tasks such as text summarization and generation.
+
+Sentence Transformers generate dense vector representations called embeddings. Semantically similar sentences tend to have embeddings that are close to each other in vector space.
+
+Semantic search uses these embeddings to retrieve information based on meaning rather than exact keyword matches. A query is converted into an embedding and compared with document chunk embeddings using similarity metrics such as cosine similarity.
+
+TransformerLab AI demonstrates these concepts through an interactive NLP workbench. The application includes sentiment analysis, zero-shot classification, named entity recognition, question answering, summarization, translation, text generation, semantic search, document intelligence, tokenizer inspection, and Transformer model comparison.
+
+The Document Intelligence module supports text-based PDF and TXT documents. Documents are extracted, cleaned, divided into overlapping chunks, converted into embeddings, and ranked against a user's query. The system returns the most semantically relevant passages along with document metadata.
+
+The Model Lab provides additional transparency into Transformer systems. Users can inspect tokenization, token IDs, model architecture information, parameter counts, and approximate model memory. It also allows two sentiment classification models to be compared using prediction confidence, inference latency, parameter count, and memory usage.
+
+TransformerLab AI is designed as an educational and experimental workbench rather than a production artificial intelligence service.
