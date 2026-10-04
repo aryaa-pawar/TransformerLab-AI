@@ -1,0 +1,11 @@
+torch
+transformers
+sentence-transformers
+gradio
+pypdf
+accelerate
+sentencepiece
+sacremoses
+scikit-learn
+pandas
+numpy
